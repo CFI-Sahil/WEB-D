@@ -1,0 +1,1028 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orna Clone</title>
+    <link rel="stylesheet" href="orna clone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="--align bg-white z-9 py-10px sticky top-0" style="box-shadow:0px 0px 6px 0px rgba(0, 0, 0, 0.25)">
+        <div class="navbar item-center flex align-pad-lef">
+            <div class="logo">
+                <a href="#"><img src="logos/OrnaOra-Final_Horizontal.jpg"></a>
+            </div>
+            <div class="search">
+                <svg class="bx-search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(146, 146, 146, 1);">
+                    <path
+                        d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z">
+                    </path>
+                </svg>
+                <input type="search" name="search" placeholder="Search products, brand, etc">
+            </div>
+            <div class="user-log-name">
+                <div class="user">
+                    <a href="sign-in-page.html"><i class="fa-regular fa-user" style="color: rgb(105 51 190);"></i>
+                </div>
+                <div class="user-p">
+                    <p>sign in</p>
+                </div></a>
+                <div class="user-2">
+                    <a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            style="color: rgb(105 51 190);" fill="currentColor" class="bi bi-bag-check"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z">
+                        </svg>
+                        <div class="user-p2">
+                            <p>Bag</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="--align">
+        <!---------------- Top category Open------------ -->
+        <div class="flex-set">
+            <div class="box">
+                <a href="necklace_set.html"><img src="pr-img/fs.png">
+                    <p>Necklace Set</p>
+                </a>
+            </div>
+            <div class="box">
+                <a href="chandbali_set.html"><img src="pr-img/fs2.png">
+                    <p>Chandbali</p>
+                </a>
+            </div>
+            <div class="box">
+                <a href="earring_set.html"><img src="pr-img/fs1.png">
+                    <p>Earring</p>
+                </a>
+            </div>
+            <div class="box">
+                <a href="jhumka_set.html"><img src="pr-img/fs3.png">
+                    <p>Jhumka Sets</p>
+                </a>
+            </div>
+            <div class="box">
+                <a href="ad_set.html"><img src="pr-img/fs4.png">
+                    <p>AD</p>
+                </a>
+            </div>
+        </div>
+        <!---------------- Top category Closed ------------ -->
+        <!-------------- Banner One ---------->
+        <div class="main-carousel">
+            <button class="arrow left">&#10094;</button>
+            <button class="arrow right">&#10095;</button>
+            <div class="carousel-track">
+                <div class="banner">
+                    <img src="Banner-Web-1.jpg">
+                </div>
+                <div class="banner">
+                    <img src="Banner-Web-2.jpg">
+                </div>
+                <div class="banner">
+                    <img src="Banner-Web-C.jpg">
+                </div>
+            </div>
+
+            <!-- Pagination Dots -->
+            <div class="carousel-pagination">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <!-------------- Banner One ---------->
+        <!---------blockbuster deals-->
+        <div class="title-1 ">
+            <h2>Blockbuster Deals</h2>
+        </div>
+        <div class="viewall-1">
+            <a href="view-all-5.html">View All <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                    fill="currentColor" class="bi bi-arrow-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg></a>
+        </div>
+        <!---------blockbuster deals-->
+        <!------card start forom here-------->
+        <div class="swiper_wrapper">
+            <div class="card-wrap row-1">
+                <i id="left" class="bi bi-arrow-left-short pre-btn"></i>
+                <!--------------------------- all anchor-------- -->
+                <a class="all_anchor" href="multi_col.html">
+                    <div class="column-1">
+                        <img src="RAJ-NJM-01/RAJ-NJM-01_1.jpg">
+                        <h4>Multi-color moti necklace</h4>
+                        <p>1499 &#8377;</p>
+                        <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                            style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                    </div>
+                </a>
+                <div class="column-1">
+                    <img src="JAI-NAD-04/IMG_8265.JPG">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>2499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-02/RAJ-J-02_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1799 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-NJM-03/RAJ-NJM-03_4.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>3499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec5.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>2499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/RAN-J-01_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/jhumka5.png">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/RAN-E-01_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/RAN-E-16_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <i id="right" class="bi bi-arrow-right-short nxt-btn"></i>
+            </div>
+        </div>
+        <!------------- blockbusters end here ------------->
+        <!-------------------- jhmkas section 2 title---------------------------------- -->
+        <div class="title-1 ">
+            <h2>Jhumkas</h2>
+        </div>
+        <div class="viewall-1">
+            <a href="view-all-5.html">View All <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                    fill="currentColor" class="bi bi-arrow-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg></a>
+        </div>
+        <!-- --------------------jhumka section start--------- -->
+        <div class="swiper_wrapper">
+            <div class="card-wrap row-2">
+                <i id="left" class="bi bi-arrow-left-short pre-btn"></i>
+                <div class="column-1">
+                    <img src="RAJ-J-01/RAJ-J-01_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-02/RAJ-J-02_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-03/RAJ-J-03_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-04/RAJ-J-04_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-05/RAJ-J-05_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-06/RAJ-J-06_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-07/RAJ-J-07_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-08/RAJ-J-08_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-09/RAJ-J-09_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <i id="right" class="bi bi-arrow-right-short nxt-btn"></i>
+            </div>
+        </div>
+        <!---------------------- jhumkas end here---------------------- -->
+        <!-----bannner 2 -----------start-->
+        <div class="banner ban-3-mid">
+            <img src="Banner-Web-2.jpg">
+        </div>
+        <!-- banner ----------------2 end here----------->
+
+        <!---------- necklace section 3 title--------- -->
+        <div class="title-1 ">
+            <h2>Necklace Collection</h2>
+        </div>
+        <div class="viewall-1">
+            <a href="view-all-5.html">View All <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                    fill="currentColor" class="bi bi-arrow-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg></a>
+        </div>
+        <!---------- necklace section 3 title end--------- -->
+
+        <!--------- necklae collection start------- -->
+        <div class="swiper_wrapper ">
+            <div class="card-wrap row-3">
+                <i id="left" class="bi bi-arrow-left-short pre-btn"></i>
+                <div class="column-1">
+                    <img src="RAJ-NJM-01/RAJ-NJM-01_4.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-NJM-02/RAJ-NJM-02_4.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-NJM-03/RAJ-NJM-03_4.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-NJM-04/RAJ-NJM-04_4.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-NJM-05/RAJ-NJM-05_4.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-NJM-06/RAJ-NJM-06_4.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-NJM-07/RAJ-NJM-07_4.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec5.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec4.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <i id="right" class="bi bi-arrow-right-short nxt-btn"></i>
+            </div>
+        </div>
+        <!-- ---------------necklace collection end here---------- -->
+        <!---------- chandbali sets section 4 title--------- -->
+        <div class="title-1 ">
+            <h2>Chandbali sets</h2>
+        </div>
+        <div class="viewall-1">
+            <a href="view-all-5.html">View All <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                    fill="currentColor" class="bi bi-arrow-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg></a>
+        </div>
+        <!---------- chandbali sets section 4 title end--------- -->
+
+        <!------------------ chandbali sets start here--------- -->
+        <div class="swiper_wrapper">
+            <div class="card-wrap row-4">
+                <i id="left" class="bi bi-arrow-left-short pre-btn"></i>
+                <div class="column-1">
+                    <img src="RAJ-J-01/RAJ-J-01_2.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-02/RAJ-J-02_2.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-03/RAJ-J-03_2.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-04/RAJ-J-04_2.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-05/RAJ-J-05_2.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-06/RAJ-J-06_2.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-07/RAJ-J-07_2.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-08/RAJ-J-08_2.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAJ-J-09/RAJ-J-09_2.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <i id="right" class="bi bi-arrow-right-short nxt-btn"></i>
+            </div>
+        </div>
+        <!------------------ chandbali sets end here--------- -->
+
+        <!--------------------- banner 3 start---------- -->
+        <div class="banner ban-3-mid">
+            <img src="Banner-Web-C.jpg">
+        </div>
+        <!--------------------- banner 3 end---------- -->
+        <!---------- stud earrings section 5 title--------- -->
+        <div class="title-1 ">
+            <h2>Stud Earrings</h2>
+        </div>
+        <div class="viewall-1">
+            <a href="view-all-5.html">View All <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                    fill="currentColor" class="bi bi-arrow-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg></a>
+        </div>
+        <!---------- stud earrings section 5 title end--------- -->
+
+        <!------------------ stud earrings start here--------- -->
+        <div class="swiper_wrapper">
+            <div class="card-wrap row-5">
+                <i id="left" class="bi bi-arrow-left-short pre-btn"></i>
+                <div class="column-1">
+                    <img src="RAN-E-01/RAN-E-01_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-02/RAN-E-02_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-03/RAN-E-03_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-04/RAN-E-04_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-05/RAN-E-05_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-06/RAN-E-06_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-07/RAN-E-07_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-08/RAN-E-08_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-09/RAN-E-09_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <i id="right" class="bi bi-arrow-right-short nxt-btn"></i>
+            </div>
+        </div>
+        <!------------- stud earings end here -------------->
+
+        <!---------- classic earrings section 6 title--------- -->
+        <div class="title-1 ">
+            <h2>Classic Earrings</h2>
+        </div>
+        <div class="viewall-1">
+            <a href="view-all-5.html">View All <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                    fill="currentColor" class="bi bi-arrow-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg></a>
+        </div>
+        <!---------- classic earrings section 6 title end--------- -->
+
+        <!------------------ classic earrings start here--------- -->
+        <div class="swiper_wrapper">
+            <div class="card-wrap row-6">
+                <i id="left" class="bi bi-arrow-left-short pre-btn"></i>
+                <div class="column-1">
+                    <img src="RAN-E-13/RAN-E-13_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-14/RAN-E-14_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-15/RAN-E-15_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-16/RAN-E-16_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-17/RAN-E-17_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-18/RAN-E-18_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-19/RAN-E-19_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-20/RAN-E-20_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="RAN-E-21/RAN-E-21_1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <i id="right" class="bi bi-arrow-right-short nxt-btn"></i>
+            </div>
+        </div>
+        <!------------- classic earrings end here -------------->
+
+        <!--------------------- banner 4 start---------- -->
+        <div class="banner ban-3-mid">
+            <img src="Banner-Web-1.jpg">
+        </div>
+        <!--------------------- banner 4 end---------- -->
+
+        <!---------- Choker Earrings section 7 title--------- -->
+        <div class="title-1 ">
+            <h2>Choker Earrings</h2>
+        </div>
+        <div class="viewall-1">
+            <a href="view-all-5.html">View All <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                    fill="currentColor" class="bi bi-arrow-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg></a>
+        </div>
+        <!---------- Choker Earrings section 7 title end--------- -->
+
+        <!------------------ Choker Earrings start here--------- -->
+        <div class="swiper-wrapper">
+            <div class="card-wrap row-7">
+                <i id="left" class="bi bi-arrow-left-short pre-btn"></i>
+                <div class="column-1">
+                    <img src="pr-img/nec1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <div class="column-1">
+                    <img src="pr-img/nec1.jpg">
+                    <h4>Multi-color moti necklace</h4>
+                    <p>1499 &#8377;</p>
+                    <span style="color: rgb(7, 143, 7); margin-right: 12px; margin-left: 10px;">30% off</span><span
+                        style="text-decoration: line-through; color: rgb(113 116 120); font-weight: 300;">&#8377;2350</span>
+                </div>
+                <i id="right" class="bi bi-arrow-right-short nxt-btn"></i>
+            </div>
+        </div>
+        <!------------- Choker Earrings end here -------------->
+    </div><!---------------this is for align from both side 100px to maek it center (will use from start to end)-->
+    <!-- tesimonial review of the users -->
+    <div class="all-in-one-cont-div">
+        <div class="title-what-say">
+            <h1>What Our Customers Say About Us</h1>
+        </div>
+        <div class="want-to-make-fl" id="testimonialContainer">
+            <div class="testimonials-card dont-1-for-pad">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color:#ffc800 ; font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>A good products n a good quality. Must buy n try for best look.👍</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Yogita Kumkar</p>
+                </div>
+            </div>
+            <div class="testimonials-card">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>Good price and best quality products and given fantastic service to the customer</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Babita Vishwakarma</p>
+                </div>
+            </div>
+            <div class="testimonials-card">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>I was honestly a bit skeptical about ordering from Ornaora since they’re a new brand, but I came across some really unique and beautiful jewelry pieces that completely won me over. I couldn’t stop myself from placing an order—and I’m so glad I did! The jhumkas I got are absolutely stunning—great quality, anti-tarnish, and they look so classy. Totally worth it! Thanks</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Rekha Sontakke</p>
+                </div>
+            </div>
+            <div class="testimonials-card">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(201, 201, 201); font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>I recently bought this beautiful ornament and I am absolutely in love with it, It arrived well packaged and looks even better in person than in the pictures</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Reena Gupta</p>
+                </div>
+            </div>
+            <div class="testimonials-card">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque labore obcaecati, iste esse
+                        hic animi delectus blanditiis optio assumenda, illum doloribus? Omnis labore perspiciatis
+                        error amet consequuntur possimus ducimus voluptate!</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Santosh Gupta</p>
+                </div>
+            </div>
+            <div class="testimonials-card">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque labore obcaecati, iste esse
+                        hic animi delectus blanditiis optio assumenda, illum doloribus? Omnis labore perspiciatis
+                        error amet consequuntur possimus ducimus voluptate!</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Santosh Gupta</p>
+                </div>
+            </div>
+            <div class="testimonials-card">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(201, 201, 201); font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque labore obcaecati, iste esse
+                        hic animi delectus blanditiis optio assumenda, illum doloribus? Omnis labore perspiciatis
+                        error amet consequuntur possimus ducimus voluptate!</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Santosh Gupta</p>
+                </div>
+            </div>
+            <div class="testimonials-card">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque labore obcaecati, iste esse
+                        hic animi delectus blanditiis optio assumenda, illum doloribus? Omnis labore perspiciatis
+                        error amet consequuntur possimus ducimus voluptate!</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Santosh Gupta</p>
+                </div>
+            </div>
+            <div class="testimonials-card">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque labore obcaecati, iste esse
+                        hic animi delectus blanditiis optio assumenda, illum doloribus? Omnis labore perspiciatis
+                        error amet consequuntur possimus ducimus voluptate!</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Santosh Gupta</p>
+                </div>
+            </div>
+            <div class="testimonials-card dont-10-for-pad">
+                <div class="rat-5-or-4">
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800; font-size: 12px;"></i>
+                </div>
+
+                <div class="cont-of-user">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque labore obcaecati, iste esse
+                        hic animi delectus blanditiis optio assumenda, illum doloribus? Omnis labore perspiciatis
+                        error amet consequuntur possimus ducimus voluptate!</p>
+                </div>
+                <div class="test-user_name">
+                    <p>Santosh Gupta</p>
+                </div>
+            </div>
+        </div>
+    </div> <!--end of the all-in-one---->
+    <div class="pagi-10-for-dot" id="paginationDots">
+        <span class="dot-10"></span>
+        <span class="dot-10"></span>
+        <span class="dot-10"></span>
+        <span class="dot-10"></span>
+        <span class="dot-10"></span>
+        <span class="dot-10"></span>
+        <span class="dot-10"></span>
+        <span class="dot-10"></span>
+        <span class="dot-10"></span>
+        <span class="dot-10"></span>
+    </div>
+
+
+
+
+    <div class="footer  --align">
+        <div class="foot-content-img">
+            <img class="foot-logo" src="logos/LogoWhite.png">
+        </div>
+        <div class="content-all">
+            <div class="grid-5">
+                <a href="#" class="block">Return & Cancellations Policy</a>
+                <a href="#" class="block">Shipping & Delivery Policy</a>
+                <a href="#" class="block">Terms & Conditions</a>
+                <a href="#" class="block">FAQs</a>
+                <div class="block foot-icon">
+                    <p class="block-2 hid-from-this">GET IN TOUCH</p>
+                    <div class="icon-dw">
+                        <a href="#" class="bl-icon bl-icon-1 "><svg xmlns="http://www.w3.org/2000/svg"
+                                class="both-ic-1-mc" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill: rgba(253, 253, 253, 1);">
+                                <path
+                                    d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z">
+                                </path>
+                            </svg></a>
+
+
+                        <a href="#" class="bl-icon bl-icon-2 "><svg xmlns="http://www.w3.org/2000/svg"
+                                class="both-ic-1-mc" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill: rgba(253, 253, 253, 1);">
+                                <path
+                                    d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z">
+                                </path>
+                                <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                                <path
+                                    d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z">
+                                </path>
+                            </svg></a>
+                    </div>
+                </div>
+                <!-- <div class="ngl-but-shif"> -->
+                <a href="#" class="block pos-top-1">About Us</a>
+                <a href="#" class="block pos-top-1">Payments & Charges</a>
+                <a href="#" class="block pos-top-1">Privacy Policy</a>
+                <a href="#" class="block pos-top-1">Contact Us</a>
+                <a href="#" class="block block-hidden">Contact Us</a>
+                <!-- </div> -->
+                <!----this is a first icon-->
+                <div class="sup-icn-sasa">
+                    <div class="ic-4-one">
+                        <span class="lastfoot-icon"><svg class="last-3-footicon" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(105, 51, 190, 1);">
+                                <path
+                                    d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z">
+                                </path>
+                            </svg>
+                    </div>
+                    <p class="bl-dc-400 ft-14-for">support@ornaora.com</p>
+                    </span>
+                </div>
+                <!----this is a first icon-->
+
+                <!------this is a second icon------>
+                <div class="sup-icn-sasa">
+                    <div class="ic-4-one">
+                        <span class="lastfoot-icon"><svg class="last-3-footicon ml-form-10" http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(105, 51, 190, 1)">
+                                <path d="M20 10.999h2C22 5.869 18.127 2 12.99 2v2C17.052 4 20 6.943 20 10.999z"></path>
+                                <path
+                                    d="M13 8c2.103 0 3 .897 3 3h2c0-3.225-1.775-5-5-5v2zm3.422 5.443a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a1 1 0 0 0-.086-1.391l-4.064-3.696z">
+                                </path>
+                            </svg>
+                    </div>
+                    <p class="bl-dc-400 ml-3percent ft-14-for">+91-8202584044</p>
+                    </span>
+                </div>
+                <!------this is a second icon------>
+
+                <!-----this is a third icon------>
+                <div class="sup-icn-3">
+                    <div class="ic-4-one">
+                        <span class="lastfoot-icon"><svg class="last-3-footicon" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16"
+                                style="fill: rgba(105, 51, 190, 1)">
+                                <path
+                                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg>
+                    </div>
+                    <p class="bl-inc-wid-80 ft-14-for">Pires House, Sahar Village, Vile Parle (East), Mumbai -
+                        400099</p>
+                    </span>
+                </div>
+                <!-----this is a third icon------>
+                <div class="mt-50-yoyo">
+                    <p class="inc-width-2 ft-14-for">© 2025, OrnaOra owned by Business Bee Enterprises.</p>
+                </div>
+            </div><!---grid-5 div ending--->
+        </div><!-----content-all ending------>
+    </div>
+    <div class="end-icon-4 two-by-4">
+        <span class="for-icon-inline">
+            <img src="logos/EasyShipping.svg" alt="">
+            <p class="black-font">easy shipping</p>
+        </span>
+        <span class="for-icon-inline">
+            <img src="logos/EasyReturns.svg" alt="">
+            <p class="black-font">easy return</p>
+        </span>
+        <span class="for-icon-inline">
+            <img src="logos/Authentic.svg" alt="">
+            <p class="black-font">100% authentic</p>
+        </span>
+        <span class="for-icon-inline">
+            <img src="logos/SelfManufacturing.svg" alt="">
+            <p class="black-font">self manufacturing</p>
+        </span>
+    </div>
+    <script src="ornaclone.js"></script>
+</body>
+
+</html>
