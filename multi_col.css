@@ -576,14 +576,14 @@ a {
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(235 235 235);
     border-radius: 5px;
-    height: 440px;
-    min-width: 362px;
+    height: 375px;
+    min-width: 298px;
     gap: 35px;
     transition: transform 0.3s;
 }
 
 .card-wrap img {
-    height: 340px;
+    height: 288px;
     width: 412px;
     max-width: 100%;
     object-fit: cover;
