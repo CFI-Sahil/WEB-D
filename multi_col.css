@@ -1196,7 +1196,7 @@ a {
         top: 0;
         left: 0;
         color: white;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.5);
         height: 100%;
         width: 100%;
         z-index: 100;
@@ -1460,5 +1460,14 @@ a {
     .hei-wid-rem {
         height: 30px;
         width: 30px;
+    }
+}
+
+@media (max-width:375px){
+    .user-log-name {
+        left: 106px;
+    }
+    .popup-img-for-7645 span{
+        top: 60px;
     }
 }
