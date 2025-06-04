@@ -1466,6 +1466,7 @@ a {
 @media (max-width:375px){
     .user-log-name {
         left: 106px;
+        top: -74px;
     }
     .popup-img-for-7645 span{
         top: 60px;
